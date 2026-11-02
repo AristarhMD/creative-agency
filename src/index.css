@@ -1,1 +1,66 @@
 @import "tailwindcss";
+
+@theme {
+  --color-neutral-950: #000;
+  --color-neutral-900: #191921;
+  --color-neutral-100: #f0f0f0;
+  --color-neutral-0: #fff;
+  --color-red-500: #f94f4f;
+  --color-red-300: #ff9393;
+  --color-zinc-700: #434356;
+  --background-image-gradient-1: linear-gradient(
+    90deg,
+    #ffffff00 0%,
+    #fff 100%
+  );
+  --background-image-gradient-2: linear-gradient(
+    180deg,
+    #00000000 0%,
+    #000 100%
+  );
+  --font-sans: "Commissioner", sans-serif;
+}
+
+@utility preset-1 {
+  @apply font-extrabold text-[5rem] leading-[110%] tracking-normal;
+}
+
+@utility preset-2 {
+  @apply font-extrabold text-[3.5rems] leading-[115%] tracking-normal;
+}
+
+@utility preset-3 {
+  @apply font-extrabold text-[2.5rem] leading-[100%] tracking-normal;
+}
+
+@utility preset-4 {
+  @apply font-extrabold text-[2rem] leading-[125%] tracking-normal;
+}
+
+@utility preset-5 {
+  @apply font-extrabold text-xl leading-[160%] tracking-normal;
+}
+
+@utility preset-6-xb {
+  @apply font-extrabold text-lg leading-[125%] tracking-normal;
+}
+
+@utility preset-6-r {
+  @apply font-normal text-lg leading-[175%] tracking-normal;
+}
+
+@utility preset-7-xb {
+  @apply font-extrabold text-base leading-[125%] tracking-normal;
+}
+
+@utility preset-7-r {
+  @apply font-normal text-base leading-[200%] tracking-normal;
+}
+
+@utility preset-8-xb {
+  @apply font-extrabold text-[0.9375rem] leading-[120%] tracking-normal;
+}
+
+@utility preset-8-r {
+  @apply font-normal text-[0.9375rem] leading-[165%] tracking-normal;
+}
