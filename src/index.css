@@ -64,3 +64,41 @@
 @utility preset-8-r {
   @apply font-normal text-[0.9375rem] leading-[165%] tracking-normal;
 }
+
+/* Style for nav */
+/* --MOBILE NAV-- */
+.mob-nav {
+  @apply w-62 h-73 bg-neutral-900 absolute z-1 top-full right-6 flex flex-col items-center justify-center;
+}
+
+.mob-nav ul {
+  @apply mb-6 flex flex-col items-center gap-6 preset-6-r text-neutral-0;
+}
+
+.mob-nav li {
+  @apply hover:preset-6-xb;
+}
+
+.mob-nav button {
+  @apply cursor-pointer px-10 py-6 bg-red-500 hover:bg-red-300 preset-7-xb text-neutral-0;
+}
+/* --TAB & DESK NAV-- */
+.desk-nav {
+  @apply w-[53%] max-w-126.25 flex items-center justify-between xl:justify-center xl:gap-14 relative;
+}
+
+.desk-nav ul {
+  @apply flex items-center gap-5 xl:gap-8 preset-8-r xl:preset-7-r text-neutral-0;
+}
+
+.desk-nav li {
+  @apply hover:preset-8-xb xl:hover:preset-7-xb;
+}
+
+.desk-nav button {
+  @apply cursor-pointer w-[40.27%] max-w-47.5 py-5.5 xl:py-6 bg-neutral-900 preset-7-xb text-neutral-0 hover:bg-zinc-700;
+}
+
+@utility desk-nav-after {
+  @apply after:content-[''] after:absolute after:h-full after:w-[57%] after:-z-1 after:max-w-176.5 after:top-0 after:right-0 after:bg-red-500;
+}
