@@ -84,7 +84,7 @@
 }
 /* --TAB & DESK NAV-- */
 .desk-nav {
-  @apply w-[53%] max-w-126.25 flex items-center justify-between xl:justify-center xl:gap-14 relative;
+  @apply hidden w-[53%] max-w-126.25 md:flex items-center justify-between xl:justify-center xl:gap-14 relative;
 }
 
 .desk-nav ul {

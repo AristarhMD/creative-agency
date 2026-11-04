@@ -4,12 +4,14 @@
 // import viteLogo from './assets/vite.svg'
 // import './App.css'
 
+import Content from "./Conent";
 import Header from "./Header";
 
 function App() {
   return (
     <>
       <Header />
+      <Content />
     </>
   );
 }
