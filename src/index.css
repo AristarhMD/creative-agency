@@ -18,6 +18,19 @@
     #00000000 0%,
     #000 100%
   );
+  --background-image-approach-tab: linear-gradient(
+    to left,
+    #f94f4f 0%,
+    #f94f4f 60%,
+    #fff 60.01%
+  );
+
+  --background-image-approach-desk: linear-gradient(
+    to left,
+    #f94f4f 0%,
+    #f94f4f 62%,
+    #fff 62.01%
+  );
   --font-sans: "Commissioner", sans-serif;
 }
 
@@ -101,4 +114,9 @@
 
 @utility desk-nav-after {
   @apply after:content-[''] after:absolute after:h-full after:w-[57%] after:-z-1 after:max-w-176.5 after:top-0 after:right-0 after:bg-red-500;
+}
+
+/* Approach section */
+@utility before-element {
+  @apply absolute preset-1 text-neutral-0/25 top-0 left-0;
 }
