@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Slider from "./Slider";
+import BgPattern from "./BgPattern";
 
 export default function SliderSection() {
   const [activeSlide, setActiveSlide] = useState(0);
@@ -14,7 +15,7 @@ export default function SliderSection() {
   };
 
   return (
-    <section className="md:flex">
+    <section className="relative md:flex">
       <Slider
         activeSlide={activeSlide}
         nextSlide={handleNextSlide}
@@ -54,6 +55,10 @@ export default function SliderSection() {
           </button>
         </div>
       </div>
+      <BgPattern
+        type="white"
+        style="hidden -scale-x-100 xl:scale-x-100 md:block absolute w-16 xl:w-33.5 h-7.5 xl:h-15 md:top-31.5 xl:top-46.5 md:right-[46.5%] xl:right-[45%]"
+      />
     </section>
   );
 }

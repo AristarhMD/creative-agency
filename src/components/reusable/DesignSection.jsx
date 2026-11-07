@@ -1,10 +1,11 @@
 import designImgMob from "../../assets/mobile/image-strategic.jpg";
 import designImgTab from "../../assets/tablet/image-strategic.jpg";
 import designImgDesk from "../../assets/desktop/image-strategic.jpg";
+import BgPattern from "./BgPattern";
 
 export default function DesignSection() {
   return (
-    <section className="md:flex">
+    <section className="md:flex relative">
       <div className="h-50 md:h-164.5 xl:h-246 w-full xl:w-[51%]">
         <picture className="block h-full w-full">
           <source media="(min-width:1280px )" srcSet={designImgDesk} />
@@ -31,6 +32,10 @@ export default function DesignSection() {
           </button>
         </article>
       </div>
+      <BgPattern
+        type="red"
+        style="absolute w-16 xl:w-33.5 h-7.5 xl:h-15 top-46 md:top-36.25 xl:top-58.5 left-6 md:left-auto md:right-[48.5%] xl:right-[44.5%]"
+      />
     </section>
   );
 }
