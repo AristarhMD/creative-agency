@@ -14,14 +14,14 @@ export default function SliderSection() {
   };
 
   return (
-    <section>
+    <section className="md:flex">
       <Slider
         activeSlide={activeSlide}
         nextSlide={handleNextSlide}
         prevSlide={handlePrevSlide}
       />
 
-      <div className="bg-neutral-900 flex flex-col gap-6 items-start justify-center py-16 px-6">
+      <div className="bg-neutral-900 flex flex-col gap-6 md:gap-8 xl:gap-12 items-start justify-center py-16 px-6 md:py-25 md:pl-10 md:pr-17.5 xl:py-38.5 xl:pl-41.25 xl:pr-37.5 md:absolute md:w-[50.78%]">
         <h2 className="preset-4 xl:preset-2 text-neutral-0">
           Brand naming & guidelines
         </h2>
