@@ -4,7 +4,7 @@ export default function ApproachSection() {
       <h2 className="preset-4 xl:preset-2 text-neutral-0 md:text-black md:pl-6 md:w-[42.21%] md:max-w-135 xl:base-135 md:mt-61.5 xl:mt-100 xl:mr-[-11.18%] xl:pl-0 z-1">
         Our approach for creating a winning brand
       </h2>
-      <asisde className="flex flex-col gap-10 xl:gap-14 items-center justify-center md:bg-red-500 md:px-10 md:w-[57.78%] xl:w-[62.16%] md:h-full xl:pl-[19.79%] xl:pr-[7.37%] ">
+      <aside className="flex flex-col gap-10 xl:gap-14 items-center justify-center md:bg-red-500 md:px-10 md:w-[57.78%] xl:w-[62.16%] md:h-full xl:pl-[19.79%] xl:pr-[7.37%] ">
         <article className="pt-11 pl-4 xl:pl-15 text-neutral-0 relative before:content-['01'] before:before-element">
           <h3 className="preset-8-xb xl:preset-5 mb-5.25 xl:mb-6 ">
             Brand Strategy
@@ -34,7 +34,7 @@ export default function ApproachSection() {
             and ultimately results in increased revenues.
           </p>
         </article>
-      </asisde>
+      </aside>
     </section>
   );
 }

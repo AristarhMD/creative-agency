@@ -16,7 +16,7 @@
   --background-image-gradient-2: linear-gradient(
     180deg,
     #00000000 0%,
-    #000 100%
+    rgba(0, 0, 0, 0.75) 100%
   );
   --background-image-approach-tab: linear-gradient(
     to left,

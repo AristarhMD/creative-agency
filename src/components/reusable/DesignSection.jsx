@@ -7,8 +7,8 @@ export default function DesignSection() {
     <section className="md:flex">
       <div className="h-50 md:h-164.5 xl:h-246 w-full xl:w-[51%]">
         <picture className="block h-full w-full">
-          <source media="(min-width:1280px )" srcset={designImgDesk} />
-          <source media="(min-width:768px )" srcset={designImgTab} />
+          <source media="(min-width:1280px )" srcSet={designImgDesk} />
+          <source media="(min-width:768px )" srcSet={designImgTab} />
           <img
             src={designImgMob}
             alt="Photo of the table from top with some persons thats working on laptop and drinking coffe"

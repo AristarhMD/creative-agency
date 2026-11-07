@@ -7,8 +7,8 @@ export default function HeroSection() {
     <section className="relative md:h-151.5 xl:h-200 md:pt-15.5 md:pl-10 xl:pt-28 xl:pl-41.25">
       <div className="md:absolute md:h-full md:top-0 md:right-0 ">
         <picture>
-          <source media="(min-width:1280px )" srcset={heroImgDesk} />
-          <source media="(min-width:768px )" srcset={heroImgTab} />
+          <source media="(min-width:1280px )" srcSet={heroImgDesk} />
+          <source media="(min-width:768px )" srcSet={heroImgTab} />
           <img
             src={heroImgMob}
             alt="Image of the two people working in the office"
