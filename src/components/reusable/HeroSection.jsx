@@ -24,7 +24,7 @@ export default function HeroSection() {
           website design solutions for small businesses, giving lasting
           impressions to audiences in a digital world.
         </p>
-        <button className="cursor-pointer px-10 py-6 bg-red-500 hover:bg-red-300 preset-7-xb text-neutral-0">
+        <button className="cursor-pointer px-10 py-6 bg-red-500 hover:bg-red-300 preset-7-xb xl:preset-6-xb text-neutral-0">
           Learn More
         </button>
       </div>
