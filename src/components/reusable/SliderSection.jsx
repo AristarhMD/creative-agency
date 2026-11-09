@@ -30,11 +30,15 @@ export default function SliderSection() {
         {/* Slider navigation */}
         <div className="flex items-center gap-4">
           {/* Prev slide */}
-          <button className="cursor-pointer" onClick={handlePrevSlide}>
-            <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+          <button className="group cursor-pointer" onClick={handlePrevSlide}>
+            <svg
+              width="40"
+              height="40"
+              xmlns="http://www.w3.org/2000/svg"
+              className="stroke-red-500 group-hover:stroke-red-300"
+            >
               <g
                 transform="matrix(-1 0 0 1 40 0)"
-                stroke="#F94F4F"
                 fill="none"
                 fillRule="evenodd"
               >
@@ -45,9 +49,14 @@ export default function SliderSection() {
           </button>
 
           {/* Next Slide */}
-          <button className="cursor-pointer" onClick={handleNextSlide}>
-            <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
-              <g stroke="#F94F4F" fill="none" fillRule="evenodd">
+          <button className="group cursor-pointer" onClick={handleNextSlide}>
+            <svg
+              width="40"
+              height="40"
+              xmlns="http://www.w3.org/2000/svg"
+              className="stroke-red-500 group-hover:stroke-red-300"
+            >
+              <g fill="none" fillRule="evenodd">
                 <circle cx="20" cy="20" r="19.5" />
                 <path strokeWidth="2" d="M17.5 15l5 5-5 5" />
               </g>

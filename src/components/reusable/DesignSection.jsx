@@ -27,7 +27,7 @@ export default function DesignSection() {
             outcomes and brand awareness. We are firm believers that success
             lies in creative collaboration with our clients.”
           </p>
-          <button className="cursor-pointer preset-8-xb xl:preset-6-xb text-red-500 border-b-2 border-red-500 pb-2">
+          <button className="cursor-pointer preset-8-xb xl:preset-6-xb text-red-500 border-b-2 border-red-500 hover:text-red-300 hover:border-red-300 pb-2">
             Schedule a Call
           </button>
         </article>
